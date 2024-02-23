@@ -19,3 +19,13 @@ select * from Book where bookname like '_구%';
 select * from Book where bookname like '%축구%' and price>=20000;
 select * from BOok where(publisher = '굿스포츠') or (pulisher = '대한미디어');
 select * from Book order by bookname;
+
+select * from Orders;
+select sum(saleprice) 총판매액 from Orders;
+select sum(saleprice) 총매출 from Orders where custid=2;
+
+select sum(saleprice) as 총판매액,
+	avg(saleprice) as 평균값,
+    min(saleprice) as 최소값,
+    max(saleprice) as 최대값
+    from Orders;
