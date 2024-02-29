@@ -13,7 +13,8 @@ int main(void)
 	//printf("celsius1000 : %d\n", celsius1000);
 	
  	int left = celsius1000 / 1000;
- 	int right = (celsius1000 - celsius1000 / 1000*1000 + 5) / 10;
+ 	//int right = (celsius1000 - celsius1000 / 1000*1000 + 5) / 10;
+ 	int right = (celsius1000 % 1000 + 5) / 10;
 	
 	celsius1000 = 1000 * 5 * (fahr - 32) / 9;
 	//printf("fahr: %d ---> celsius %2f\n", fahr, celsius);
