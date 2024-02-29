@@ -49,3 +49,15 @@ and Book.price=20000;
 select Customer.name, Orders.saleprice
 from Customer left outer join Orders on Customer.custid=Orders.custid;
 
+select Customer.name, Orders.saleprice
+from Customer left join Orders on Customer.custid=Orders.custid;
+
+select Customer.name, Orders.saleprice
+from Customer right join Orders on Customer.custid=Orders.custid;
+
+select Customer.name, Orders.saleprice
+from Customer inner join Orders on Customer.custid=Orders.custid;
+
+select Customer.name, Orders.saleprice
+from Customer, Orders
+where Customer.custid=Orders.custid;
