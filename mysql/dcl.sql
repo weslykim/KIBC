@@ -23,7 +23,7 @@ set SQL_SAFE_UPDATES=0;
 update Customer
 set address = "대한민국 부산"
 where custid=5;
-select * from Customer
+select * from Customer;
 
 -- 3-48 example
 select * from Book;
@@ -35,7 +35,7 @@ where bookid = 14;
 -- 3-49 example
 delete from Book
 where bookid = 11;
-select * from Book
+select * from Book;
 
 -- 3-50 example
 delete from Customer;
