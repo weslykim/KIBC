@@ -59,4 +59,12 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         외부 ip 접근 가능한 user 생성
         방화벽 전체포트 3306 포트 열기
         임의의 데이터 넣고 우분투에서 확인
-        데이터 정의어,조작어,제어어를 배움  
+        데이터 정의어,조작어,제어어를 배움
+
+        2024.2.29
+        ubuntu에서 visualcode로 넘어갈때
+        makefile을 사용하여 파일을 만듬
+        make에 사용하는 명령어 기본문법
+        여러개 명령어를 특정하여 등록
+        연속실행 명령어, 생략 가능 명령어, 변수 사용
+         
