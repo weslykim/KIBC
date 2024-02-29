@@ -29,3 +29,10 @@ select sum(saleprice) as 총판매액,
     min(saleprice) as 최소값,
     max(saleprice) as 최대값
     from Orders;
+    
+    select count(*) from Orders;
+    
+    select sum(saleprice) 총매출, count(*) 도서수량 from Orders group by custid;
+    select sum(saleprice) 총매출, count(*) 도서수량 from Orders
+    where saleprice >=8000    
+    group by custid having count(*) >=2;
