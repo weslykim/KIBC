@@ -61,10 +61,32 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         임의의 데이터 넣고 우분투에서 확인
         데이터 정의어,조작어,제어어를 배움
 
-        2024.2.29
+        ##2024-2-29
         ubuntu에서 visualcode로 넘어갈때
         makefile을 사용하여 파일을 만듬
         make에 사용하는 명령어 기본문법
         여러개 명령어를 특정하여 등록
         연속실행 명령어, 생략 가능 명령어, 변수 사용
-         
+        select gruop by 사용
+        order by 사용
+        조인 연산 left outer join, left join, right join, left inner join을 배움
+        부속질의 배움(중복사용)
+        집합연산 배움
+        ->합집합 차집합 교집합
+         exists 배움(상관 부속질의문)
+         데이터 정의어 배움
+         ->create문(테이블 구성및 속성과 속성에 관한 제약 정의 및 기본키 외래키 정의)
+         {}-> 반복가능 , []-> 선택적사용, |-> 1개선택, <>-> 해당되는 문법 사항이 있음
+         not null-> null값을 허용하지않음, default-> 기본값 설정
+         primary key-> 기본키 설정, foreign key->외래키 지정
+         on delete-> 투플 삭제(cascade, set null), check-> 값에 대한 조건 부여
+         ->alter문 배운(생성된 테이블의 속성과 그에대한 제약 변경 및 기본키 외래키 변경)
+         add-> 속성추가, drop-> 속성삭제, modify-> 속성타입변경
+        drop 문 배움(테이블을 삭제)
+        insert문 배움(새로운 투플을 데이터의 삽입 into와 value를 사용)
+        update문 배움(특정 속성값을 수정 set를 사용)
+        delete문 배움(투플을 삭제 from을 사용)
+        sql내장함수를 배움(select절 where절 update절에 사용가능)
+        숫자함수를 배움()
+        문자함수를 배움()
+        날짜 시간함수를 배움()
