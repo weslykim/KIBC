@@ -90,3 +90,6 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         숫자함수를 배움()
         문자함수를 배움()
         날짜 시간함수를 배움()
+
+
+    [C 프로그래밍 README](./C_src/Readme.md)
