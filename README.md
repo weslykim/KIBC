@@ -112,7 +112,7 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         데이터베이스 프로그래밍의 개념 및 방법
         (sql전용언어 사용, 일반프로그래밍 언어를 sql의 삽입하여 사용)
         (웹 프로그래밍 언어에 sql삽입, 4GL(4세대 언어))
-        저장 프로그램(데이터베이스 으용프로그램을 작성하는데 사용하는 sql전용언어)
+        저장 프로그램(데이터베이스 응용프로그램을 작성하는데 사용하는 sql전용언어)
         프로시져(sql쿼리아 제어문의 집합으로 구성된 프로그램 단위) 만들기(create procedure)
         직접입력 or stored procedure 마우스 오른쪽클릭으로 생성시켜 만들기
         삽입작업을 하는 프로시져(InsertBook)
