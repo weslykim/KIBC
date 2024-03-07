@@ -38,3 +38,82 @@ select orderid "주문번호", date_format(orderdate, "%Y-%m-%d") "주문일",
 custid "고객번호", bookid "도서번호"
 from	Orders
 where	orderdate= str_to_date("20240707", "%Y%m%d");
+
+use madangdb;
+create table Mybook(
+	bookid int primary key,
+    price int);
+insert into Mybook(bookid, price) value (1, 10000);
+insert into Mybook(bookid, price) value (2, 20000);
+insert into Mybook(bookid, price) value (3, null);
+ select * from Mybook;
+ drop table Mybook;
+ 
+ select price + 100 from Mybook where bookid=3;
+ select sum(price), avg(price), count(*), count(price), count(bookid)
+ from Mybook;
+ 
+ -- 4-10 example
+ select name , '이름', ifnull(phone, '연락처없음') '전화번호'
+ from Customer;
+ 
+ -- 4-11 example
+ set @seq:=0;
+ 
+ select (@seq:=@seq+1) '순번', custid, name, phone
+ from Customer
+ where @seq < 2;
+ 
+ -- 4-12 example
+ select orderid, saleprice
+ from Orders
+ where saleprice <= (select avg(saleprice) from Orders);
+ 
+ -- 4-13 example
+ select orderid, custid, saleprice
+ from Orders od1
+ where saleprice> (select avg(saleprice)
+				from Orders od2
+                where od1.custid=od2.custid);
+ 
+ -- 4-14 example
+ select sum(saleprice) 'total'
+ from Orders
+ where custid in (select custid from Customer
+						where address like '%대한민국%');
+
+-- 4-15 example
+select orderid, saleprice
+from Orders
+where saleprice > all(select saleprice from Orders
+					where custid ='3');
+
+-- 4-16 example
+select sum(saleprice) 'total'
+from Orders od
+where exists (select * from Customer cs
+	where address like '%대한민국%' and cs.custid=od.custid);
+
+-- 4-17 example
+select (select name from Customer cs
+	where cs.custid=od.custid) 'name', sum(saleprice) 'total'
+from Orders od
+group by od.custid;
+
+-- 4-18 example
+alter table Orders add bname varchar(40);
+update Orders
+set bname = (select bookname from Book
+	where Book.bookid=Orders.bookid);
+    select * from Orders;
+
+update Orders
+set bname = (select bookname from Book
+	where Book.bookid = Orders.bookid);
+    
+-- 4-19 example
+select cs.name, sum(saleprice)
+from (select custid, name from Customer cs
+	where custid <= 2) cs, Orders 
+where cs.custid = Orders.custid
+group by cs.name;
