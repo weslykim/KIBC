@@ -100,3 +100,4 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         중첩질의({where} 비교연산자 in, notin연산자,all some/any(한정 연산자)
         exists, not exists)
         스칼라 부속질의(select)
+        인라인 뷰- from 부속질의
