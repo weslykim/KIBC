@@ -114,9 +114,10 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         (웹 프로그래밍 언어에 sql삽입, 4GL(4세대 언어))
         저장 프로그램(데이터베이스 으용프로그램을 작성하는데 사용하는 sql전용언어)
         프로시져(sql쿼리아 제어문의 집합으로 구성된 프로그램 단위) 만들기(create procedure)
-        직접입력 or stored procedure 마우스 기오른쪼글릭으로 생성시켜 만들기
+        직접입력 or stored procedure 마우스 오른쪽클릭으로 생성시켜 만들기
         삽입작업을 하는 프로시져(InsertBook)
         제어문을 사용하는 프로시저(BookInsertOrUpdate)
         결과를 반환하는 프로시져(Averageprice)
         커서를 사용하는 프로시져(Interest)
         트리거(데이터의 변경문이 실행될때 자동으로 같이 실행되는 프로시져)
+        사용자 정의함수(입력된 값을 가공하여 결과값을 되돌려주는 함수)
