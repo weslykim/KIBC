@@ -75,3 +75,6 @@
     c_src디렉토리내에 시리얼 디렉토리를 생성
     벤츠 전기차의 시리얼넘버 부여함수 만들기
     c_src디렉토리내에서 배열안의 구성요소의 개수를 만들때(malloc함수,free함수 sizeof함수)
+    뷰 만들기(create view)
+    뷰 수정하기(create or replace view)
+    뷰 삭제하기(drop view)
