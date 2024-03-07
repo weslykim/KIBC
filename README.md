@@ -87,9 +87,9 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         update문 배움(특정 속성값을 수정 set를 사용)
         delete문 배움(투플을 삭제 from을 사용)
         sql내장함수를 배움(select절 where절 update절에 사용가능)
-        숫자함수를 배움()
-        문자함수를 배움()
-        날짜 시간함수를 배움()
+        숫자함수를 배움(ABS,Round)
+        문자함수를 배움(Replace, char_length, length,substr)
+        날짜 시간함수를 배움(adddate,str_to_date,date_format)
 
         ##2024-03-04
     [C 프로그래밍 README](./C_src/Readme.md)
