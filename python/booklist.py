@@ -25,8 +25,9 @@ def main():
                     print(book)
                     cursor.close()
                     conn.close()
-
-if  name    ==  "main"                    
+                    if name == "main"
+                    main()   
+                  
                 
 
 
