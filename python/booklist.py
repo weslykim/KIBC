@@ -12,7 +12,7 @@ def main():
         conn = pymysql.connect(host=host, port=port, db=database, user=username
         , password=password, charsset="utf8")
         print("연결 성공")
-        except: # ignore error
+        except: #ignore error
             print("연결 실패")
             config = False
 
