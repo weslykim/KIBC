@@ -97,7 +97,7 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         ##2024-03-07
         NULL 값 처리
         부속질의
-        중첩질의({where} 비교연산자 in, notin연산자,all some/any(한정 연산자)
+        중첩질의({where} 비교연산자 in, not in연산자,all some/any(한정 연산자)
         exists, not exists)
         스칼라 부속질의(select)
         인라인 뷰- from 부속질의
@@ -109,3 +109,14 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         (테이블구성요소))
         인덱스 재구성하기(analyze table 테이블명)
         인덱스 삭제하기(drop index 인덱스명 on 테이블명)
+        데이터베이스 프로그래밍의 개념 및 방법
+        (sql전용언어 사용, 일반프로그래밍 언어를 sql의 삽입하여 사용)
+        (웹 프로그래밍 언어에 sql삽입, 4GL(4세대 언어))
+        저장 프로그램(데이터베이스 으용프로그램을 작성하는데 사용하는 sql전용언어)
+        프로시져(sql쿼리아 제어문의 집합으로 구성된 프로그램 단위) 만들기(create procedure)
+        직접입력 or stored procedure 마우스 기오른쪼글릭으로 생성시켜 만들기
+        삽입작업을 하는 프로시져(InsertBook)
+        제어문을 사용하는 프로시저(BookInsertOrUpdate)
+        결과를 반환하는 프로시져(Averageprice)
+        커서를 사용하는 프로시져(Interest)
+        트리거(데이터의 변경문이 실행될때 자동으로 같이 실행되는 프로시져)
