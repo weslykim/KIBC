@@ -75,11 +75,3 @@
     c_src디렉토리내에 시리얼 디렉토리를 생성
     벤츠 전기차의 시리얼넘버 부여함수 만들기
     c_src디렉토리내에서 배열안의 구성요소의 개수를 만들때(malloc함수,free함수 sizeof함수)
-    뷰 만들기(create view)
-    뷰 수정하기(create or replace view)
-    뷰 삭제하기(drop view)
-    인덱스 개념과 특징 mysql에서의 인덱스 종류 및 개념
-    인덱스 만들기(create index 뭐시기 on 테이블명
-    (테이블구성요소))
-    인덱스 재구성하기(analyze table 테이블명)
-    인덱스 삭제하기(drop index 인덱스명 on 테이블명)
