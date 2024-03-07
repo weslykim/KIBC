@@ -91,5 +91,12 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         문자함수를 배움()
         날짜 시간함수를 배움()
 
-
+        ##2024-03-04
     [C 프로그래밍 README](./C_src/Readme.md)
+
+        ##2024-03-07
+        NULL 값 처리
+        부속질의
+        중첩질의({where} 비교연산자 in, notin연산자,all some/any(한정 연산자)
+        exists, not exists)
+        스칼라 부속질의(select)
