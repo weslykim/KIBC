@@ -121,3 +121,4 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         커서를 사용하는 프로시져(Interest)
         트리거(데이터의 변경문이 실행될때 자동으로 같이 실행되는 프로시져)
         사용자 정의함수(입력된 값을 가공하여 결과값을 되돌려주는 함수)
+        python 3 pip다운로드(설치 관리 제거할수 있는 명령줄 도구)
