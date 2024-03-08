@@ -128,3 +128,5 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         데이터베이스의 팩 파일 구성을 불러옹(C)
         디버깅(오류체크 cmake)
         데이터베이스 연동 파이썬 프로그래밍
+        데이터베이스 연동 웹 프로그래밍
+        데이터모델링(개념, ER모델을 관계 데이터 모델로 만드는 실습)
