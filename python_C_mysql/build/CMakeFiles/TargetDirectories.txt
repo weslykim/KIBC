@@ -1,3 +1,0 @@
-/home/ubnt/kuIotBigdataClass/python_C_mysql/build/CMakeFiles/booklist.dir
-/home/ubnt/kuIotBigdataClass/python_C_mysql/build/CMakeFiles/edit_cache.dir
-/home/ubnt/kuIotBigdataClass/python_C_mysql/build/CMakeFiles/rebuild_cache.dir

@@ -126,3 +126,4 @@ git clone https://github.com/weslykim/kuIotBigdataClass.git
         데이터베이스의 책 파일 구성을 불러옴(C) 시간부족 다음날 이어서함
         ##2024-03-08
         데이터베이스의 팩 파일 구성을 불러옹(C)
+        디버깅(오류체크)
