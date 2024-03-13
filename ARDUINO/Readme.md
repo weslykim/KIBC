@@ -43,5 +43,10 @@
         GPIO를 이용하여 AT mega 128 속LED깜빡이기 예제
         확인작업(어제했던 파일을 열고 tools -> Device Programming -> Tool에 AVRISP mk|| 선택
         -> Device ATmega128A 선택후 적용 그리고 Memories바를 선택해서 경로 확인후(경로에 한글이
-        있으면 안된다.) 프로그램 버튼 누르고 되는지 확인)
+        있으면 안된다.) 프로그램 버튼 누르고 되는지 확인-> 확인되었으면 128에 결과를 확인한다.)
+        GPIO를 이용하여 LED 전부 키거나 끄기 마이크로칩 스튜디오 작업
+        GPIO를 이용하여 FND LED 키기(인가된 전원에 따라서 ANODE형인지 CATHODE형인지 구분한다.)
+        ANODE형은 구성된 LED가 공통된 양극(ANODE)를 공유한다. CATHODE에 연결된 핀을 제어하여 LED를 켜는 방식을 사용한다.
+        CATHODE형은 구성된 LED가 공통된 음극(CATHODE)를 공유한다. ANODE로 LED가 제어되며 ANODE에 연결된 LED를 HIGH로 설정하여 LED를 켤수 있다.(우리가 받은 장비는 CATHODE형이다.)
+        GPIO를 이용하여 스위치 입력을 받고 스위치를 누르면 LED가 점등할수 있게 실습
         
