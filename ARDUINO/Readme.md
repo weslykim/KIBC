@@ -56,4 +56,4 @@
         GPIO를 이용하여 스위치 입력을 받고 스위치를 누르면 LED가 점등할수 있게 실습(엣지체크까지 : 엣지체크는 신호의 변화나 변동에 반응하는 동작을 체크하는 행동을 의미한다.)
         GPIO를 이용하여 스위치 입력을 받고 스위치를 누르면 LED가 깜빡일수 있게 실습(엣지체크까지 수행)
         인터럽트(방해하다라는 뜻으로 작업진행중 다른일이 발생하여 그 일을 먼저 처리해야하는 상항이 발생하는 경우른 의미한다. 급한일을 먼저 처리하고 원래의 일을 다시 이어서 수행한다.<- 인터럽트 서비스 루틴이 이 작업을 수행)
-        디버깅(오류체크 - 프로젝트 선택 후 TEST 파일명 PROPERTIES선택_ TOOL선택후 SELECTED DEBUGGER/PROGRAMMER에서 SIMULATOR선택후 START DEBUGGING (F5) 실행)      
+        디버깅(오류체크 - 프로젝트 선택 후 TEST 파일명 PROPERTIES선택_ TOOL선택후 SELECTED DEBUGGER/PROGRAMMER에서 SIMULATOR선택후 START DEBUGGING (F5) 실행)  단 빌드가 되있는경우만 가능    
