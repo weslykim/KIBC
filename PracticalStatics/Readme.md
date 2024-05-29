@@ -348,7 +348,12 @@
     지수분포 :  한 사건에서 그다음 사건까지의 시간이나 거리에 대한 도수분포
     베이불 분포 : 사건 발생률이 시간에 따라 변화하는, 지수분포의 일반화된 버젼
 
+    *오렌지3 boxplot설치(윈도우환경에서 진행)
+    (miniconda3를 함께설치하라해서 같이진행)
 
+    오렌지의 아이콘들 체험(datasets, datatable, Scatterplot, violinplot, Barplot, histogram(distribution))
+    각각의 기능들을 알아보고 실행
+    
     Chapter3
     통계적 실험과 유의성검정
 
