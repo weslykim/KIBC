@@ -354,6 +354,8 @@
     오렌지의 아이콘들 체험(datasets, datatable, Scatterplot, violinplot, Barplot, histogram(distribution))
     각각의 기능들을 알아보고 실행
     
+                                                #2024.5.30        
+
     Chapter3
     통계적 실험과 유의성검정
 
