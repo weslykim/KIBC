@@ -231,7 +231,7 @@
     병합 : 기본적으로 두개의 데이터를 특정한 기준을 가지고 하나로 통합하는 작업
     join이라 하기도 하며 여러가지의 조인이 있다.
 
-    내부 조인(inner join) : 두개의 테이블을 병합할때 병합하는 키 값을 기준으로 두 테이블에 모두 ㄷ존재하는 키 값의 행끼리 
+    내부 조인(inner join) : 두개의 테이블을 병합할때 병합하는 키 값을 기준으로 두 테이블에 모두 존재하는 키 값의 행끼리 
     병합하는 경우
 
     완전 조인(full join) : 두개의 테이블에서 각각의 행을 병합한다. 이때 두테이블에서 동일한 키 값을 가진 행은 통합하고
@@ -351,13 +351,17 @@
     *오렌지3 boxplot설치(윈도우환경에서 진행)
     (miniconda3를 함께설치하라해서 같이진행)
 
-    오렌지의 아이콘들 체험(datasets, datatable, Scatterplot, violinplot, Barplot, histogram(distribution))
+    오렌지의 아이콘들 체험(datasets, datatable, Scatterplot, violinplot, Boxplot, histogram(distribution))
     각각의 기능들을 알아보고 실행
     
                                                 #2024.5.30        
 
+
+    오렌지 기능을 추가로 알아보기(Test score, confusion matrix, predictions, SYM, AdaBoost, KNN)
+    머신러닝의 구동방법 알기
+
     Chapter3
-    통계적 실험과 유의성검정
+    통계적 실험과 유의성검정기
 
     A/B검정 : 두 가지 처리방법, 제품, 절차 중 어느쪽이 다른 쪽보다 더 우월하다는 것을 입증하기 위해
     실험군을 두 그룹으로 나누어 진행하는 실험
