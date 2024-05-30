@@ -34,5 +34,14 @@ def main():
     model = sm.OLS(house[outcome], house[predictors])
     results = model.fit()
     print(results.summary())
+
+    #RSE
+    print(f"RSE : {np.sqrt(results.mse_resid):.3f}")
+
+    #MAE
+    print(f"MAE : {np.mean(np.abs(regidue)):.3f}")
+
+    #MAPE
+    print(f"MAPE : {np.mean(np.abs((regidue/house[outcome]))):.3f}")
 if __name__ == "__main__":
     main()
