@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/OPEN_CV/datacode/build/CMakeFiles/helloworld.dir
+/home/ubnt/Desktop/OPEN_CV/datacode/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/OPEN_CV/datacode/build/CMakeFiles/rebuild_cache.dir

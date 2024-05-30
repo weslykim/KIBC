@@ -1,0 +1,4 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/usefulfunction/build/CMakeFiles/mouse_rec_store.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/usefulfunction/build/CMakeFiles/sum_mean.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/usefulfunction/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/usefulfunction/build/CMakeFiles/rebuild_cache.dir

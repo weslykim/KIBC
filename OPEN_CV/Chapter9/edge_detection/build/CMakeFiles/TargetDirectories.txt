@@ -1,0 +1,8 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/canny_edge.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/houghcircle.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/houghcircletracbar.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/houghline.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/houghlineP.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/mask_edge.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter9/edge_detection/build/CMakeFiles/rebuild_cache.dir

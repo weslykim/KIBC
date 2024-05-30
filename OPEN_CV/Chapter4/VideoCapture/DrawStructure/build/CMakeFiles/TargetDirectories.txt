@@ -1,0 +1,7 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/drawtext.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/freetypefont.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/line.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/linetest.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/polys.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/DrawStructure/build/CMakeFiles/rebuild_cache.dir

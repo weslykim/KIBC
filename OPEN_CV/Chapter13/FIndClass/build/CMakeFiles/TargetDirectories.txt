@@ -1,0 +1,4 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter13/FIndClass/build/CMakeFiles/hogalgorism.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter13/FIndClass/build/CMakeFiles/templetematch.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter13/FIndClass/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter13/FIndClass/build/CMakeFiles/rebuild_cache.dir

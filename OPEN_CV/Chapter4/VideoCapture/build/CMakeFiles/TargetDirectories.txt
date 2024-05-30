@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/OPEN_CV/Chapter4/VideoCapture/build/CMakeFiles/vidcap.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter4/VideoCapture/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter4/VideoCapture/build/CMakeFiles/rebuild_cache.dir

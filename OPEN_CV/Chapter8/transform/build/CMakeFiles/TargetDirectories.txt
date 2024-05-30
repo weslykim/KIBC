@@ -1,0 +1,8 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/affine.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/flip.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/perspective.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/rotation.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/shear.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/translation.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter8/transform/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter10/ColorCV/build/CMakeFiles/colorinrange.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter10/ColorCV/build/CMakeFiles/colormerge.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter10/ColorCV/build/CMakeFiles/colorpixreverse.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter10/ColorCV/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter10/ColorCV/build/CMakeFiles/rebuild_cache.dir

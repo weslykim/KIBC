@@ -1,0 +1,4 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/Brightness/build/CMakeFiles/bright.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/Brightness/build/CMakeFiles/brightTrackbar.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/Brightness/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/Brightness/build/CMakeFiles/rebuild_cache.dir

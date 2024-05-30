@@ -1,0 +1,6 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/Event/build/CMakeFiles/crackbar.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/Event/build/CMakeFiles/keyboard.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/Event/build/CMakeFiles/keyboard2.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/Event/build/CMakeFiles/mouse.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/Event/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/Event/build/CMakeFiles/rebuild_cache.dir

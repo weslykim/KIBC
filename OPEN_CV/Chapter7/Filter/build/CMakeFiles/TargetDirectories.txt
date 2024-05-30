@@ -1,0 +1,8 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/add_noise.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/bilateral.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/embosing.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/gaussian_blur.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/median.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/sharpning.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter7/Filter/build/CMakeFiles/rebuild_cache.dir

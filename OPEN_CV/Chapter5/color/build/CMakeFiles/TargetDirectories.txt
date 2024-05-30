@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/color/build/CMakeFiles/saturated.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/color/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/color/build/CMakeFiles/rebuild_cache.dir

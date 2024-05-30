@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/contrast/build/CMakeFiles/contrastid.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/contrast/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/contrast/build/CMakeFiles/rebuild_cache.dir

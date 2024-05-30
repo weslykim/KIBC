@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter6/arithmetic_Operation/build/CMakeFiles/arithmetic.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter6/arithmetic_Operation/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter6/arithmetic_Operation/build/CMakeFiles/rebuild_cache.dir

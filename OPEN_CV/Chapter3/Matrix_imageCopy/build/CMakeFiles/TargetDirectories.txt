@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Matrix_Copy/build/CMakeFiles/matcopy.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Matrix_Copy/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Matrix_Copy/build/CMakeFiles/rebuild_cache.dir

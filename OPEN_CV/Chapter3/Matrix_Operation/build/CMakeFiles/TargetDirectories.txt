@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Matrix_Operation/build/CMakeFiles/Operate.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Matrix_Operation/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Matrix_Operation/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter14/localdetect_match/build/CMakeFiles/keypointmatching.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter14/localdetect_match/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter14/localdetect_match/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/histogram/build/CMakeFiles/histo_equal.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/histogram/build/CMakeFiles/histogram_bright.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/histogram/build/CMakeFiles/histogram_stretch.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/histogram/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter5/histogram/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/storage/build/CMakeFiles/filestorage.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/storage/build/CMakeFiles/storageread.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/storage/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/storage/build/CMakeFiles/rebuild_cache.dir

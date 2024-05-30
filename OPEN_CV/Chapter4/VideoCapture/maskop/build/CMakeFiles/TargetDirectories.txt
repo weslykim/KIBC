@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/maskop/build/CMakeFiles/mask.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/maskop/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter4/VideoCapture/maskop/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Rectangle_RotatedRectangle/build/CMakeFiles/Rect_RotatedRect.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Rectangle_RotatedRectangle/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/OPEN_CV/Chapter3/Rectangle_RotatedRectangle/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter11/binarization/build/CMakeFiles/adaptivebinari.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter11/binarization/build/CMakeFiles/morphobinari.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter11/binarization/build/CMakeFiles/morphobinari2.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter11/binarization/build/CMakeFiles/trackbinari.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter11/binarization/build/CMakeFiles/edit_cache.dir
+/home/ubnt/Desktop/Opencv_Tcp/OPEN_CV/Chapter11/binarization/build/CMakeFiles/rebuild_cache.dir
