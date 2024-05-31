@@ -5,6 +5,7 @@ import statsmodels.api as sm
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from statsmodels.stats.outliers_influence import OLSInfluence
+import seaborn as sns
 
 def main():
     folder = "/home/ubnt/KIBC/PracticalStatics/data/"
@@ -22,13 +23,11 @@ def main():
     influence = OLSInfluence(results_98105)
     fig = plt.figure()
     ax = fig.add_subplot()
-    ax.axhline(-2.5, linestyle = '--', color = 'C1')
-    ax.axhline(-2.5, linestyle = '--', color = 'C1')
-    ax.scatter(influence.hat_matrix_diag, influence.resid_studentized_internal, 
-               s = 1000 * np.sqrt(influence.cooks_distance[0]), alpha = 0.5)
-    ax.set_xlabel('hat value')
-    ax.set_ylabel('studentized residual')
-    plt.show()     
+    sns.regplot(x = results_98105.fittedvalues, y = np.abs(results_98105.resid)
+                , scatter_kws = {'alpha' : 0.5}, line_kws = {'color' : 'C1'}, lowess = True, ax = ax)   #type : ignore
+    ax.set_xlabel('predicted')
+    ax.set_ylabel('abs(residual)')
+    plt.show()
 
 if __name__ == "__main__":
     main()
