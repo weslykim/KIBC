@@ -19,18 +19,29 @@ def main():
     X = dataset.iloc[:, :-1].values
     Y = dataset.iloc[:, 4].values
     X_train, X_test, Y_train, Y_valid = train_test_split(X, Y, test_size = 0.2, random_state = 0)
-    scaler = StandardScaler()
 
+    # 정규화
+    scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.fit_transform(X_test)
 
+    # ML model 만들기 및 학습
     knn = KNeighborsClassifier(n_neighbors = 5)
     knn.fit(X_train, Y_train)
 
+    # 예측, 정확도 출력
     Y_pred = knn.predict(X_test)
     accuracy_score(Y_valid, Y_pred)
-
     print(accuracy_score(Y_valid, Y_pred))
+
+    # fold 별로 나누기
+    k = 10
+    acc_array = np.zeros(k)
+    for k in np.arange(1, k + 1):
+        knn = KNeighborsClassifier(n_neighbors = k).fit(X_train, Y_train)
+        Y_pred = knn.predict(X_test)
+        acc_array[k - 1] = accuracy_score(Y_valid, Y_pred)
+    print(list(acc_array))
 
 if __name__ == "__main__":
     main()
