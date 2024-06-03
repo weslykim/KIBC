@@ -1,4 +1,4 @@
-
+from sklearn.preprocessing import StandardScaler
 import numpy as np
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
@@ -24,6 +24,19 @@ def main():
     print(X.iloc[nbrs[1][0], :])
     print(f"distance : {nbrs[0]}")
     print(f"predict {knn.predict(newloan)}")
+
+    # Normalization of data
+    scaler = StandardScaler()
+    scaler.fit(X * 1.0)
+
+    X_std = scaler.transform(X * 1.0)
+    newloan_std = scaler.transform(newloan * 1.0)
+   
+    knn.fit(X_std, Y)
+    nbrs = knn.kneighbors(newloan_std)
+    print(X.iloc[nbrs[1][0], :])
+    print(f"distance : {nbrs[0]}")
+    print(f"predict {knn.predict(newloan_std)}")
 
 if __name__ == "__main__":
     main()
