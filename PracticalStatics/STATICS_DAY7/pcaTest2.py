@@ -38,8 +38,25 @@ def main():
         pc_loadings.plot.bar(ax = ax, color = colors) # type: ignore
         ax.set_ylabel(f'PC{i + 1}')
         ax.set_ylim(-maxPC, maxPC)
-    plt.show()
     
+    
+    # clustering by PCA
+    from sklearn.cluster import KMeans
+    from sklearn.preprocessing import StandardScaler
+    kmeans = KMeans(n_clusters = 4)
+    kmeans.fit(top_sp)
+
+    top_sp['cluster'] = kmeans.labels_
+
+    # plot
+    fig = plt.figure()
+    ax = fig.add_subplot()
+    for cluster, data in top_sp.groupby('cluster'):
+        ax.scatter(data['AAPL'], data['MSFT'], label = cluster)
+        ax.legend(title = 'Cluster')
+    plt.show()
+
+
 
 if __name__ == '__main__':
     main()
