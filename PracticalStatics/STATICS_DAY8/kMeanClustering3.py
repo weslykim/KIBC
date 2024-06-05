@@ -16,17 +16,21 @@ def main():
     print(df)
     print(Counter(kmeans.labels_))
 
-    centers = pd.DataFrame(kmeans.cluster_centers_, columns = syms)
+    inertia = []
+    for n_clusters in range(2, 14):
+        kmeans = KMeans(n_clusters = n_clusters, n_init = 'auto').fit(df)
+        inertia.append(kmeans.inertia_ / n_clusters)
 
-    fig, axes = plt.subplots(5, 1, figsize=(5,5), sharex=True)
-    for i, ax in enumerate(axes):
-        center = centers.loc[i, :]
-        maxPC = 1.01 * center.abs().to_numpy().max()
-        colors = ['red' if l < 0 else 'blue' for l in center]   # type : ignore
-        ax.axhline(color = '#888888')
-        center.plot.bar(ax = ax, color = colors)
-        ax.set_ylabel(f'Cluster {i + 1}')
-        ax.set_ylim(-maxPC, maxPC)
+    inertias = pd.DataFrame({'n_clusters' : range(2, 14), 'inertia' : inertia})
+    print(inertias)
+
+    ax = inertias.plot(x = 'n_clusters', y = 'inertia')
+    plt.xlabel('Number of clusters(k)')
+    plt.ylabel('Average whitin-cluster Squared Distances')
+    plt.ylim((0, 1.1 * inertias.inertia.max()))
+    ax.legend().set_visible(True)
+
+    plt.show()
 
 
 if __name__ == "__main__":
