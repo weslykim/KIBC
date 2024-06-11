@@ -73,6 +73,22 @@ class LinearRegressionSGD(object):
         else:
             weights = self._coef
         return test_X.dot(weights)  # type : ignore
+    
+    @property
+    def cost(self):
+        return self._coef
+    
+    @property
+    def intercept(self):
+        return self._intercept
+    
+    @property
+    def weights_history(self):
+        return self._w_history
+    
+    @property
+    def cost_history(self):
+        return self._cost_history
 
 def main():
     pass
