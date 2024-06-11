@@ -62,6 +62,23 @@ def main():
         print(f"{modelName} MSE:{mean_squared_error(y_true, y_hat)}")
         print(f"{modelName} RMSE:{np.sqrt(mean_squared_error(y_true, y_hat))}")
         print(f"{modelName} MAE:{mean_absolute_error(y_true, y_hat)}")
-    
+
+    # 2 x 2 plot
+    fig, axes = plt.subplots(2, 2, figsize = (10, 10))
+    fig = plt.figure()
+    axes = []
+    axes.append(fig.add_subplot(221))
+    axes.append(fig.add_subplot(222))
+    axes.append(fig.add_subplot(223))
+    axes.append(fig.add_subplot(224))
+
+    for i, y_hat in enumerate(y_hats):
+        axes[i].scatter(y_true, y_hat, s = 10)
+        axes[i].plot([0, 60], [0, 60], 'k--', lw = 2)
+    plt.xlabel("Prices: $Y_i$")
+    plt.ylabel("Predicted prices: $\hat{Y}_i$")
+    plt.title("Prices vs Predicted prices: $Y_i$ vs $\hat{Y}_i$")
+    plt.show()
+
 if __name__ == "__main__":
     main()
