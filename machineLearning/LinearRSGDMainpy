@@ -1,3 +1,5 @@
+# 미완성코드
+
 from LinearRSGDTest import LinearRegressionSGD
 import numpy as np
 import pandas as pd
