@@ -6,7 +6,7 @@ def get_info(df):
     not_survived = df.loc[df["Survived"] == 0]
     x = np.array([len(survived) / len(df), len(not_survived) / len(df)])
     y = np.log2(x[x != 0])
-    info_all = -sum(x[x != 0] + y)
+    info_all = -sum(x[x != 0] * y)
     return info_all
 
 def get_attribute_info(df, attribute_name):
