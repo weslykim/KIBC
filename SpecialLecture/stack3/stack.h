@@ -7,7 +7,8 @@ struct stack
 	int tos;
 };
 
-void push(struct stack s, int data);
-int pop(struct stack s);
+void initStack(struct stack *ps);
+void push(struct stack *ps, int data);
+int pop(struct stack *ps);
 
 #endif
