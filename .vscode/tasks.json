@@ -6,8 +6,7 @@
             "command": "rm",
             "args": [
                 "-rf",
-                // "${workspaceFolder}/build",
-                "${fileDirname}/build",
+                "${fileDirname}/build"
             ],
             "group": "build"
         },
@@ -18,10 +17,11 @@
             "args": [
                 "-p",
                 "${fileDirname}/build"
-                // "${workspaceFolder}/build"
             ],
             "group": "build",
-            "dependsOn": ["디렉토리 내용 삭제"]
+            "dependsOn": [
+                "디렉토리 내용 삭제"
+            ]
         },
         {
             "type": "shell",
@@ -34,14 +34,15 @@
                 "${fileDirname}",
                 ".",
                 "-G",
-                "Unix Makefiles",
+                "Unix Makefiles"
             ],
             "options": {
-                "cwd": "${fileDirname}/build",
-                // "cwd": "${workspaceFolder}/build",
+                "cwd": "${fileDirname}/build"
             },
             "group": "build",
-            "dependsOn": ["디렉토리 생성"]
+            "dependsOn": [
+                "디렉토리 생성"
+            ]
         },
         {
             "type": "cppbuild",
@@ -58,14 +59,53 @@
                 "$gcc"
             ],
             "options": {
-                // "cwd": "${workspaceFolder}/build",
-                "cwd": "${fileDirname}/build",
+                "cwd": "${fileDirname}/build"
             },
             "dependsOn": [
                 "cmake 실행"
             ],
-            "detail": "디버거에서 생성된 작업입니다.",
+            "detail": "디버거에서 생성된 작업입니다."
         },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc 활성 파일 빌드",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "컴파일러: /usr/bin/gcc"
+        },
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc 활성 파일 빌드",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "컴파일러: /usr/bin/gcc"
+        }
     ],
     "version": "2.0.0"
 }
