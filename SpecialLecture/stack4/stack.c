@@ -3,17 +3,17 @@
 #include "stack.h"
 #include <assert.h>
 
-void initStack(struct stack *ps, int size)
+void initStack(Stack *ps, int size)
 {
 	ps->pArr = malloc(sizeof(int) * size);
 	ps->size = size;
 	ps->tos = 0;
 }
-void cleanupStack(struct stack *ps)
+void cleanupStack(Stack *ps)
 {
 	free(ps->pArr);
 }
-void push(struct stack *ps, int data)
+void push(Stack *ps, int data)
 {
 	//stack[tos] = data;
 	//++tos;
@@ -29,7 +29,7 @@ void push(struct stack *ps, int data)
 	++ps->tos;
 }
 
-int pop(struct stack *ps)
+int pop(Stack *ps)
 {
 	/*if (ps->tos == 0)
 	{

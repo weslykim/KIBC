@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	struct stack s1, s2;
+	Stack s1, s2;
 	//struct stack stacks[20];
 	//s1.tos = 0;
 	//s2.tos = 0;
