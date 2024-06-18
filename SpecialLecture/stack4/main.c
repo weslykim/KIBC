@@ -2,11 +2,10 @@
 #include "stack.h"
 #include <stdlib.h>
 
-/*struct stack
+void f(int *p)
 {
-	int array[100];
-	int tos;
-};*/
+	*p = 100;
+}
 
 int main(void)
 {
@@ -21,17 +20,26 @@ int main(void)
 	push(&s1, 200);
 	push(&s1, 300);
 	
-	printf("s1 1stpop() : %d\n", pop(&s1));
-	printf("s1 2ndpop() : %d\n", pop(&s1));
-	printf("s1 3rdpop() : %d\n", pop(&s1));
+	int re;
+	pop(&s1, &re);
+	pop(&s1, &re);
+	pop(&s1, &re);
+	
+	printf("s1 1stpop() : %d\n", re);
+	printf("s1 2ndpop() : %d\n", re);
+	printf("s1 3rdpop() : %d\n", re);
 	
 	push(&s2, 900);
 	push(&s2, 800);
 	push(&s2, 700);
 	
-	printf("s2 1stpop() : %d\n", pop(&s2));
-	printf("s2 2ndpop() : %d\n", pop(&s2));
-	printf("s2 3rdpop() : %d\n", pop(&s2));
+	pop(&s2, &re);
+	pop(&s2, &re);
+	pop(&s2, &re);
+	
+	printf("s2 1stpop() : %d\n", re);
+	printf("s2 2ndpop() : %d\n", re);
+	printf("s2 3rdpop() : %d\n", re);
 	
 	cleanupStack(&s1);
 	cleanupStack(&s2);

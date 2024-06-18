@@ -28,16 +28,22 @@ void push(Stack *ps, int data)
 	ps->pArr[ps->tos] = data;
 	++ps->tos;
 }
+void pop(Stack *ps, int *pData)
+{
+	assert(ps->tos != 0);
 
-int pop(Stack *ps)
+	--ps->tos;
+	
+	*pData = ps->pArr[ps->tos];
+/*int pop(Stack *ps)
 {
 	/*if (ps->tos == 0)
 	{
 		fprintf(stderr, "Stack is empty\n");
 		exit(2);
 	}*/
-	--ps->tos;
-	assert(ps->tos != 0);
+	//--ps->tos;
+	//assert(ps->tos != 0);
 	
-	return ps->pArr[ps->tos];
-}
+	//return ps->pArr[ps->tos];
+

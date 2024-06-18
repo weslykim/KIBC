@@ -12,6 +12,7 @@ typedef struct stack
 void initStack(Stack *ps, int size);
 void cleanupStack(Stack *ps);
 void push(Stack *ps, int data);
-int pop(Stack *ps);
+//int pop(Stack *ps);
+void pop(Stack *ps, int *pData);
 
 #endif
