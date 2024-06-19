@@ -39,6 +39,16 @@ int main(void)
 		p = p->next;
 	} 
 	printf("\n");
+	
+{
+	Node *p = ptr;
+	while(p )
+	{
+		Node *tmp = p;
+		p = p->next;
+		free(tmp);
+	}
+}
 	return 0;
 }
 }
