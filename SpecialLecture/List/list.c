@@ -25,6 +25,12 @@ int main(void)
 	p->next = ptr->next;
 	ptr->next = p;
 }
+
+{
+	Node *p = ptr->next->next;
+	ptr->next->next = p->next;
+	free(p);
+}
 {	
 	Node *p = ptr;
 	while (p /*/ != NULL*/)
