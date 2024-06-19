@@ -92,6 +92,7 @@ void printList(const List *pList)
 	while (p )
 	{
 		printf("%d, ", p->data);
+		printf((p->next ) ? ", " : "");
 		p = p->next;
 	}
 	printf("]\n");
